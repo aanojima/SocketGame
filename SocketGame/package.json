@@ -1,0 +1,14 @@
+{
+  "author": {
+    "name": "aanojima"
+  },
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "4.15.2",
+    "socketio": "^1.0.0"
+  },
+  "description": "SocketGame",
+  "main": "server.js",
+  "name": "socket-game",
+  "version": "0.0.0"
+}

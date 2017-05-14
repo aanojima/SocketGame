@@ -1,0 +1,68 @@
+#main-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.column {
+	position: absolute;
+	display: inline-block;
+	height: 100%;
+}
+
+/* Specific Layout Elements */
+#left-column {
+	left: 0px;
+	right: 65%;
+}
+
+#center-column {
+	left: 35%;
+	right: 35%;
+}
+
+#right-column {
+	left: 65%;
+	right: 0px;
+}
+
+.controller-button {
+
+}
+
+.controller-button > img {
+	position:absolute;
+    top:50%;
+    max-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    max-width:100%;
+}
+
+/* Specific Control Elements */
+#d-pad {
+	position: relative;
+	width: 100%;
+    height: 50%;
+    top: 25%;
+    bottom: 25%;
+}
+
+#a-button {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	top: 25%;
+	bottom: 25%;
+	right: 0%;
+}
+
+#b-button {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	top: 25%;
+	bottom: 25%;
+	left: 0%;
+}
